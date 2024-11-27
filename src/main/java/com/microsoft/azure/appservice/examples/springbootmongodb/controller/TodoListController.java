@@ -47,7 +47,7 @@ public class TodoListController {
      */
     @GetMapping(path = "/api/todolist", produces = {MediaType.APPLICATION_JSON_VALUE})
     public List<TodoItem> getAllTodoItems() {
-        logger.info("GET request access '/api/todolist' path.");
+        logger.info(" Tapiwa is master mind right for GET request access '/api/todolist' path.");
 
         List<TodoItem> items = todoItemRepository.findAll();
         return todoItemRepository.findAll();
